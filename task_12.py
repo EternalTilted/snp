@@ -2,7 +2,7 @@ class JellyBean():
     def __init__(self, name = None, calories = None, flavor = None):
         self.name = name
         self.calories = calories
-        self.flavore = flavor
+        self.flavor = flavor
 
 
     @property
