@@ -33,21 +33,23 @@ def rps_game_winner(list):
     
 try:
     print( rps_game_winner([['player1', 'P'], ['player2', 'S'], ['player3', 'S']]) )
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
 
 try:
     print( rps_game_winner([['player1', 'P'], ['player2', 'A']]) )
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
 
 try:
     print( rps_game_winner([['player1', 'A'], ['player2', 'P']]) )
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
 
 try:
     print( rps_game_winner([['player1', 'A'], ['player2', 'A']]) )
-except Exception as e:
-    print(e)
+except Exception as error:
+    print(error)
+
+
 
